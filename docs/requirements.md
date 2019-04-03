@@ -11,13 +11,14 @@ By default, the app should:
 * read "display" data from the (item), 
 * update data in (item),
 * delete (item),
+
 Where (item) is some type of database table object that would be interesting to you. (list of users, types of socks, scooter inventory, ingredients for meals, plant database, hat store, etc. make it unique and personalized to you.)
 
 You will need at least one page (all functions on one page, like the todo list) or you could split each CRUD operation on a unique page, or have an add view, and a display view which allows you to also update or delete. Does not matter, as long as it works.
 
 #### Wireframe
 
-See [wireframe]()
+See [wireframe](https://github.com/bootcamp-s19/exercise8-laravel-crud/blob/master/docs/demo.gif)
 
 This is just one of many many different ways to make a crud app, style it to your hearts content. 
 
