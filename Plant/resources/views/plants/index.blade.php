@@ -12,8 +12,17 @@
 
 @foreach($plants as $plant)
 
-<li>{{$plant->common}}</li>
 
+
+<h1>{{$plant->common}}</h1>
+<ul>
+<li>{{$plant->id}}</li>
+<li>{{$plant->genus}}</li>
+<li>{{$plant->species}}</li>
+<li>{{$plant->description}}</li>
+<li>{{$plant->created_at}}</li>
+
+</ul>
 
 @endforeach
     

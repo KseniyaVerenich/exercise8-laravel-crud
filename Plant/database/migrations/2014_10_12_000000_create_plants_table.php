@@ -18,6 +18,7 @@ class CreatePlantsTable extends Migration
             $table->string('common');
             $table->string('genus');
             $table->string('species');
+            $table->string('description');
             $table->timestamps();
         });
     }
